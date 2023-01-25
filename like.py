@@ -4,7 +4,7 @@ try:
     import selenium
 
 except:
-    os.system("pip3 install requests")
+    os.system("pip3 install selenium")
 
 
 biblack="\033[1;90m"      # Black
