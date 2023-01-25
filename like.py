@@ -86,12 +86,12 @@ class AMFBot:
         time.sleep(5)
         follow=bot.find_element_by_xpath('//div[@role="button" and @data-testid="confirmationSheetConfirm"]')
         if follow.is_displayed():
-          follow.click()
+           follow.click()
         time.sleep(5)  
       else:
         follow=bot.find_element_by_xpath('//div[@role="button" and @data-testid="confirmationSheetConfirm"]')
         if follow_displayed():
-          follow.click()
+           follow.click()
         time.sleep(5)
         
     except bot.NoSuchElementException:
@@ -121,7 +121,7 @@ class AMFBot:
     try:
       follow=bot.find_element_by_xpath('//div[@role="button" and @data-testid="confirmationSheetConfirm"]')
         if follow_displayed():
-          follow.click()
+           follow.click()
         time.sleep(5)
         
         
