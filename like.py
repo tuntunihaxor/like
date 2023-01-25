@@ -38,7 +38,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import time 
 
-class.AMFBot:
+class AMFBot:
   def __init__(self, like4like_user, like4likepwd, twitter_user, twitter_pwd):
     self.like4like_user=like4like_user
     self.like4likepwd=like4likepwd
