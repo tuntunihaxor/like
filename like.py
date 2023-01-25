@@ -16,6 +16,12 @@ bipurple="\033[1;95m"     # Purple
 bicyan="\033[1;96m"       # Cyan
 biehite="\033[1;97m"      # White
 
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
+import time 
+
+
 os.system("clear")
 
 
@@ -32,11 +38,6 @@ print(bigreen+"""
  Contact :- linktr.ee/tuntunihaxor
 ═══════════════════════════════════════════════
 """)
-
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
-import time 
 
 class AMFBot:
   def __init__(self, like4like_user, like4likepwd, twitter_user, twitter_pwd):
